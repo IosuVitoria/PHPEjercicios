@@ -67,13 +67,38 @@
 
     echo "<p> Concatenamos las dos cadenas usando el operador punto (.) </p>";
     echo $cadena1 . " " . $cadena2;
+    echo "<br>";
 
-    echo "<p> Intentamos concatenar usando el operador suma (+), lo cual generará un error ya que PHP no admite la suma de cadenas de texto. </p>";
-    echo $cadena1 + " " + $cadena2;
+    echo "Ejercicio 8 -------------------------------";
+    echo "<br>";
+
+    $nombre = "Iosu";
+
+    echo "Mi nombre es: $nombre";
 
     echo "<br>";
 
+    echo "Ejercicio 9 -------------------------------";
+    echo "<br>";
 
+    $numero1 = 5;
+    $numero2 = 7;
+    $numero3 = $numero1 + $numero2;
+
+    echo "La suma de $numero1 y $numero2 es $numero3";
+
+    echo "<br>";
+
+    echo "Ejercicio 10 -------------------------------";
+    echo "<br>";
+
+    $numero4 = 5;
+    $numero5 = 7;
+    $numero6 = $numero1 * $numero2;
+
+    echo "La multiplicación de $numero4 por  $numero5 es $numero6";
+
+    echo "<br>";
 ?>
 
 
